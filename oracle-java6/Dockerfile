@@ -4,7 +4,7 @@ MAINTAINER flurdy
 
 ENV DEBIAN_FRONTEND noninteractive
 
-# accept-java-license
+# accept-java-license test commit
 RUN echo /usr/bin/debconf shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
 
 RUN apt-get update && \
