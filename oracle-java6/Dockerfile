@@ -24,3 +24,7 @@ RUN apt-get update && \
 
 RUN apt-get update && \
   apt-get install -yq git
+  
+RUN apt-get update && \
+  apt-get install -yq ant  
+  
