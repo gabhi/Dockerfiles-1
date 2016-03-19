@@ -20,3 +20,7 @@ RUN apt-get update && \
   apt-get autoremove -yq && \
   apt-get clean -yq && \
   rm -rf /var/lib/apt/lists/*
+
+
+RUN apt-get update && \
+  apt-get install -yq git
