@@ -27,4 +27,7 @@ RUN apt-get update && \
   
 RUN apt-get update && \
   apt-get install -yq ant  
+
+RUN  echo "    IdentityFile ~/.ssh/id_rsa" >> /etc/ssh/ssh_config
   
+
