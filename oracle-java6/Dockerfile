@@ -30,4 +30,5 @@ RUN apt-get update && \
 
 RUN  echo "    IdentityFile ~/.ssh/id_rsa" >> /etc/ssh/ssh_config
   
+RUN chmod 600 /root/.ssh/id_rsa
 
